@@ -38,9 +38,9 @@ config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
 config :mageex, Mageex.Repo,
-  adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "mageex_dev",
-  hostname: "localhost",
+  adapter: Ecto.Adapters.MySQL,
+  username: "root",
+  password: "root",
+  database: "yuge_performance_m1",
+  hostname: "192.168.33.41",
   pool_size: 10
